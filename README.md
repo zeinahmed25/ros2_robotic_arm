@@ -1,9 +1,5 @@
 # ROS 2 Robotic Arm: URDF, Simulation and Hardware Control
 
-A 4-joint robotic arm modelled in URDF, simulated in Gazebo (`gz sim`) and
-RViz2, and driven from the same ROS 2 command on real servo motors through an
-Arduino Uno.
-
 ```
 slider_gui / trajectory_publisher
         |  trajectory_msgs/JointTrajectory
@@ -13,6 +9,14 @@ slider_gui / trajectory_publisher
         v
 hardware_bridge (ROS 2 node) --USB serial--> Arduino Uno --PWM--> 2x SG90 servos
 ```
+
+## Team
+
+| Name         | ID   |
+| ------------ | ---- |
+| Maria Hany   | 9762 |
+| Marina Moheb | 9758 |
+| Zeina Ahmed  | 9553 |
 
 ## Repository layout
 
